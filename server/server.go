@@ -1,8 +1,9 @@
 package main
 
 import (
-	"arrangeit/controllers"
 	"net/http"
+
+	"github.com/Richard-R/arrangeit/controllers"
 
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
@@ -26,7 +27,7 @@ func main() {
 	})
 
 	e.GET("/users/:id", controllers.GetUser)
-	//e.GET("/users/:id/:name", controllers.testTwo)
+	e.GET("/users/:id/:name", controllers.TestTwo)
 
 	e.Logger.Fatal(e.Start(":8081"))
 

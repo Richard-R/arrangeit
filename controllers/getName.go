@@ -13,7 +13,7 @@ func GetUser(c echo.Context) error {
 	return c.String(http.StatusOK, "Hello my name is "+id)
 }
 
-func testTwo(c echo.Context) error {
+func TestTwo(c echo.Context) error {
 	id := c.Param("id")
 	name := c.Param("name")
 	return c.String(http.StatusOK, "Hello my id is "+id+" and my name is "+name)
