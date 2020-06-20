@@ -12,4 +12,5 @@ require (
 	github.com/jedib0t/go-pretty v4.3.0+incompatible
 	github.com/labstack/echo v3.3.10+incompatible
 	github.com/stretchr/testify v1.5.1
+	github.com/valyala/fasttemplate v1.1.1 // indirect
 )

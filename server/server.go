@@ -27,6 +27,7 @@ func main() {
 	})
 
 	e.GET("/users/:id", controllers.GetUser)
+	e.GET("/help", controllers.GetNumber)
 	e.GET("/users/:id/:name", controllers.TestTwo)
 
 	e.Logger.Fatal(e.Start(":8081"))
