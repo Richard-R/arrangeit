@@ -1,9 +1,8 @@
 package main
 
 import (
-	"net/http"
-
 	"arrangeit/controllers"
+	"net/http"
 
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"

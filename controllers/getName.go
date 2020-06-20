@@ -6,6 +6,8 @@ import (
 	"github.com/labstack/echo"
 )
 
+type Controller struct{}
+
 func GetUser(c echo.Context) error {
 	id := c.Param("id")
 	return c.String(http.StatusOK, "Hello my name is "+id)

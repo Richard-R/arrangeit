@@ -38,6 +38,7 @@ func init() {
 // TODO better help text
 
 func main() {
+
 	flag.Parse()
 	if itemsFile == "" || rulesFile == "" {
 		fmt.Println("-items and -rules are required")
