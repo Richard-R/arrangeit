@@ -4,7 +4,6 @@ import (
 	"net/http"
 
 	"github.com/Richard-R/arrangeit/controllers"
-
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 )

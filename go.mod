@@ -2,7 +2,7 @@ module github.com/Richard-R/arrangeit
 
 // normally module github.com/dankinder/arrangeit
 
-go 1.12
+//go 1.12
 
 require (
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869
@@ -20,3 +20,5 @@ require (
 	golang.org/x/crypto v0.0.0-20200604202706-70a84ac30bf9 // indirect
 	golang.org/x/sys v0.0.0-20200302150141-5c8b2ff67527 // indirect
 )
+
+go 1.13
